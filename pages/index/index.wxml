@@ -1,0 +1,19 @@
+<include src="/pages/head/head"/>
+<view class="banner">
+  <view>Banner</view>
+</view>
+<view class="class-list">
+  <view>Class</view>
+  <view>Class</view>
+  <view>Class</view>
+  <view>Class</view>
+  <view>Class</view>
+  <view>Class</view>
+  <view>Class</view>
+  <view>Class</view>
+  <view>Class</view>
+  <view>Class</view>
+  <view>Class</view>
+  <view>Class</view>
+  <i class="clear"></i>
+</view>

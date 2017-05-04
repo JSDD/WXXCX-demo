@@ -1,0 +1,43 @@
+<include src="/pages/head/head"/>
+<view class="user-head">
+  <view class="head-img"></view>
+</view>
+<view class="nav">
+  <view>
+    <navigator url="">
+      <image src="/image/image.png"></image>
+      <text>头像</text>
+    </navigator>
+    <navigator url="">
+      <image src="/image/update.png"></image>
+      <text>编辑用户</text>
+    </navigator>
+    <navigator url="">
+      <image src="/image/envelope.png"></image>
+      <text>信息</text>
+    </navigator>
+    <i class="clear"></i>
+  </view>
+</view>
+<view class="info-list">
+  <view class="info">
+    <view class="info-key">用户名</view>
+    <view class="info-value">僵尸顶顶</view>
+    <i class="clear"></i>
+  </view>
+  <view class="info">
+    <view class="info-key">手机号</view>
+    <view class="info-value">15201074932</view>
+    <i class="clear"></i>
+  </view>
+  <view class="info">
+    <view class="info-key">E-mail</view>
+    <view class="info-value">729199940@qq.com</view>
+    <i class="clear"></i>
+  </view>
+  <view class="info">
+    <view class="info-key">地址</view>
+    <view class="info-value">北京市-朝阳区-朝阳区</view>
+    <i class="clear"></i>
+  </view>
+</view>

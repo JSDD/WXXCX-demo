@@ -1,0 +1,21 @@
+<view class="head">
+  <!--Logo-->
+  <view class="logo">
+    LOGO
+  </view>
+  <!--Message-->
+  <view class="message">
+    <navigator url="/pages/message/message">
+      <i class="fa fa-envelope-o"></i>
+    </navigator>
+  </view>
+  <!--Search-->
+  <view class="search">
+    <i bindtap="show" class="fa fa-search"></i>
+  </view>
+  <i class="clear"></i>
+</view>
+
+<view id="search-input" class="search-input">
+  <input tyle="text" placeholder="搜索内容" />
+</view>

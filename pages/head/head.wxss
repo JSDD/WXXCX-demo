@@ -1,0 +1,34 @@
+.head {
+    background: #6666CC;
+    padding: 10px;
+}
+.head .logo {
+    float: left;
+    color: #ffffff;
+}
+.head .search {
+    float: right;
+    margin-left: 20px;
+}
+.head .search i {
+    margin-top: 4px;
+    color: #ffffff;
+}
+.search-input {
+    background: #f9f9f9;
+    padding: 10px;
+    display: none;
+}
+.search-input input {
+    background: #ffffff;
+    color: #aaaaaa;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.head .message {
+    float: right;
+    margin-left: 20px;
+    color: #ffffff;
+
+}

@@ -1,0 +1,30 @@
+@import "/pages/head/head.wxss";
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background: #eee;
+    overflow: hidden;
+}
+.banner > view {
+    width: 100%;
+    height: 200px;
+    float: left;
+    color: #ccc;
+    line-height: 200px;
+    text-align: center;
+}
+.class-list {
+    padding: 20px 0;
+}
+.class-list > view {
+    width: 44%;
+    height: 50px;
+    margin-left: 4%;
+    margin-top: 10px;
+    background: #eee;
+    float: left;
+    text-align: center;
+    color: #ccc;
+    line-height: 50px;
+}

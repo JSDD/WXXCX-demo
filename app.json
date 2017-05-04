@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/list/list",
+    "pages/message/message",
+    "pages/setting/setting",
+    "pages/head/head"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#6666CC",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle":"#ffffff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#9898CB",
+    "selectedColor": "#6666CC",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home-hover.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "发布文章",
+        "iconPath": "image/edit.png",
+        "selectedIconPath": "image/edit-hover.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user-hover.png"
+      }
+    ]
+  }
+}
